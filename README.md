@@ -30,7 +30,7 @@ game-recommender/
 ├── .gitignore          # Archivos excluidos del control de versiones
 ├── requirements.txt    # Librerías necesarias para el proyecto
 └── README.md           # Documentación del proyecto
-``
+```
 
 ## 📌 Futuras mejoras
 
