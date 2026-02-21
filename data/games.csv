@@ -1,0 +1,401 @@
+name,rating,genres,released
+Grand Theft Auto V,4.47,['Action'],2013-09-17
+The Witcher 3: Wild Hunt,4.64,"['Action', 'RPG']",2015-05-18
+Portal 2,4.58,"['Shooter', 'Puzzle']",2011-04-18
+Counter-Strike: Global Offensive,3.57,['Shooter'],2012-08-21
+Tomb Raider (2013),4.06,['Action'],2013-03-05
+Portal,4.49,"['Action', 'Puzzle']",2007-10-09
+Left 4 Dead 2,4.09,"['Action', 'Shooter']",2009-11-17
+The Elder Scrolls V: Skyrim,4.42,"['Action', 'RPG']",2011-11-11
+Red Dead Redemption 2,4.59,['Action'],2018-10-26
+BioShock Infinite,4.38,"['Action', 'Shooter']",2013-03-26
+Half-Life 2,4.48,"['Action', 'Shooter']",2004-11-16
+Borderlands 2,4.01,"['Action', 'Shooter', 'RPG']",2012-09-18
+Life is Strange,4.12,['Adventure'],2015-01-29
+BioShock,4.36,"['Action', 'Shooter']",2007-08-21
+Destiny 2,3.52,"['Action', 'Shooter']",2017-09-06
+God of War (2018),4.55,['Action'],2018-04-20
+Fallout 4,3.81,"['Action', 'RPG']",2015-11-09
+PAYDAY 2,3.52,"['Action', 'Shooter']",2013-08-13
+Limbo,4.14,"['Action', 'Adventure', 'Indie', 'Puzzle', 'Platformer']",2010-07-21
+Team Fortress 2,3.68,"['Action', 'Shooter']",2007-10-10
+DOOM (2016),4.38,"['Action', 'Shooter']",2016-05-12
+Cyberpunk 2077,4.23,"['Action', 'Shooter', 'RPG']",2020-12-10
+Terraria,4.07,"['Action', 'Indie', 'Platformer']",2011-05-16
+Dota 2,3.07,"['Action', 'Massively Multiplayer']",2013-07-09
+Grand Theft Auto IV,4.26,['Action'],2008-04-29
+Warframe,3.42,"['Action', 'Shooter', 'RPG', 'Massively Multiplayer']",2013-03-25
+Rocket League,3.93,"['Sports', 'Racing', 'Indie']",2015-07-07
+Horizon Zero Dawn,4.28,"['Action', 'RPG']",2017-02-28
+Metro 2033,3.94,"['Action', 'Shooter']",2010-03-16
+Rise of the Tomb Raider,4.04,['Action'],2015-11-10
+Batman: Arkham Knight,4.25,['Action'],2015-06-23
+Metal Gear Solid V: The Phantom Pain,4.16,"['Action', 'Shooter']",2015-09-01
+Grand Theft Auto: San Andreas,4.5,['Action'],2004-10-26
+The Witcher 2: Assassins of Kings Enhanced Edition,4.17,['RPG'],2012-04-16
+Apex Legends,3.63,"['Action', 'Shooter']",2019-02-04
+The Witcher: Enhanced Edition Director's Cut,4.06,"['Action', 'RPG']",2008-09-16
+Hollow Knight,4.4,"['Action', 'Indie', 'Platformer']",2017-02-23
+Middle-earth: Shadow of Mordor,3.91,"['Action', 'RPG']",2014-09-30
+Half-Life 2: Lost Coast,3.45,['Action'],2005-10-27
+The Walking Dead: Season 1,4.36,"['Action', 'Adventure']",2012-04-23
+Little Nightmares,4.03,"['Action', 'Adventure', 'Platformer']",2017-04-27
+BioShock 2,4.07,"['Action', 'Shooter']",2010-02-09
+Half-Life,4.38,"['Action', 'Shooter']",1998-11-19
+Half-Life 2: Episode One,4.38,"['Action', 'Shooter']",2006-06-01
+Half-Life 2: Episode Two,4.46,"['Action', 'Shooter', 'Puzzle']",2007-10-10
+Half-Life 2: Deathmatch,3.29,['Action'],2004-11-01
+Dark Souls III,4.4,"['Action', 'RPG']",2016-04-11
+Stardew Valley,4.39,"['RPG', 'Simulation', 'Indie']",2016-02-25
+BioShock Remastered,4.24,['Shooter'],2016-09-15
+Mirror's Edge,4.07,['Action'],2008-11-11
+Hotline Miami,4.38,"['Action', 'Shooter', 'Arcade', 'Indie']",2012-10-22
+Hitman,3.93,"['Action', 'Shooter', 'Simulation']",2016-03-11
+Outlast,3.75,"['Action', 'Indie']",2013-09-03
+Deus Ex: Mankind Divided,3.96,"['Action', 'RPG']",2016-08-22
+Far Cry 3,4.26,"['Action', 'Shooter']",2012-11-28
+PlayerUnknown’s Battlegrounds,3.27,"['Action', 'Shooter', 'Massively Multiplayer']",2017-12-20
+Path of Exile,3.65,"['Action', 'RPG', 'Massively Multiplayer', 'Indie']",2013-10-23
+Alan Wake,4.09,"['Action', 'Shooter', 'Adventure']",2010-05-14
+Marvel's Spider-Man,4.45,['Action'],2018-09-07
+Wolfenstein: The New Order,4.18,"['Action', 'Shooter']",2014-05-19
+Garry's Mod,3.8,"['Action', 'Adventure', 'Simulation', 'Casual', 'Indie']",2004-12-24
+Amnesia: The Dark Descent,3.65,"['Action', 'Adventure', 'Indie']",2010-09-08
+Detroit: Become Human,4.34,"['Action', 'Adventure']",2018-05-25
+Spec Ops: The Line,4.1,"['Action', 'Shooter']",2012-06-26
+Half-Life Deathmatch: Source,3.21,['Action'],2006-05-01
+Saints Row: The Third,3.95,"['Action', 'Adventure']",2011-11-15
+Prey,4.28,"['Action', 'Shooter', 'RPG']",2017-05-05
+Fallout: New Vegas,4.43,"['Action', 'Shooter', 'RPG']",2010-10-19
+Borderlands,3.82,"['Action', 'Shooter', 'RPG']",2009-10-20
+The Elder Scrolls V: Skyrim Special Edition,4.45,"['Action', 'RPG']",2016-10-27
+Dishonored 2,4.26,"['Action', 'RPG']",2016-11-10
+Dishonored,4.38,"['Action', 'Adventure', 'RPG']",2012-09-25
+Don't Starve Together,3.77,"['Action', 'Simulation', 'Indie']",2016-04-21
+Hellblade: Senua's Sacrifice,4.22,"['Action', 'Adventure', 'Indie']",2017-08-07
+Company of Heroes 2,3.1,['Strategy'],2013-06-25
+Injustice: Gods Among Us Ultimate Edition,3.53,"['Action', 'Arcade', 'Fighting']",2013-11-12
+Grand Theft Auto: Vice City,4.45,['Action'],2002-10-27
+Sid Meier's Civilization V,4.29,['Strategy'],2010-09-21
+Hitman: Absolution,3.76,"['Action', 'Shooter']",2012-11-19
+Assassin’s Creed IV: Black Flag,4.15,['Action'],2013-10-29
+L.A. Noire,4.16,"['Action', 'Adventure']",2011-05-17
+Control,4.15,"['Action', 'Shooter', 'Adventure']",2019-08-27
+Super Meat Boy,3.98,"['Indie', 'Platformer']",2010-10-20
+For Honor,3.3,"['Action', 'Massively Multiplayer']",2017-02-13
+Star Wars Jedi: Fallen Order,4.13,"['Action', 'Adventure']",2019-11-15
+Uncharted 4: A Thief’s End,4.48,"['Action', 'Shooter']",2016-05-10
+Counter-Strike: Source,3.75,['Shooter'],2004-11-01
+Dead Space (2008),4.39,"['Action', 'Shooter']",2008-10-13
+Mass Effect 2,4.46,"['Action', 'RPG']",2010-01-26
+Just Cause 3,3.4,"['Action', 'Shooter']",2015-11-30
+Death Stranding,4.32,"['Action', 'Adventure']",2019-11-08
+Metro: Last Light Redux,4.13,"['Action', 'Shooter']",2014-08-25
+Borderlands: The Pre-Sequel,3.56,"['Action', 'Shooter', 'RPG']",2014-10-13
+Counter-Strike,4.06,"['Action', 'Shooter']",2000-11-01
+Metro 2033 Redux,4.1,"['Action', 'Shooter']",2014-08-25
+Left 4 Dead,4.1,"['Action', 'Shooter']",2008-11-17
+BioShock 2 Remastered,4.0,"['Action', 'RPG']",2016-09-15
+Metal Gear Solid V: Ground Zeroes,3.91,"['Action', 'Shooter']",2014-03-18
+Hades,4.42,"['Action', 'Adventure', 'RPG', 'Indie']",2020-09-17
+NieR:Automata,4.37,"['Action', 'RPG']",2017-03-17
+Mortal Kombat X,3.86,"['Action', 'Fighting']",2015-04-07
+Mass Effect,4.39,"['Action', 'RPG']",2007-11-16
+The Last Of Us Remastered,4.69,"['Action', 'Adventure']",2014-07-29
+Just Cause 2,3.62,"['Action', 'Shooter']",2010-03-23
+ARK: Survival Of The Fittest,2.6,"['Action', 'RPG', 'Strategy', 'Massively Multiplayer', 'Indie']",2016-03-15
+Fall Guys: Ultimate Knockout,3.74,"['Action', 'Sports', 'Casual', 'Massively Multiplayer', 'Indie']",2020-08-04
+Minecraft,4.44,"['Action', 'Simulation', 'Arcade', 'Massively Multiplayer', 'Indie']",2009-05-10
+Monster Hunter: World,4.01,"['Action', 'Adventure', 'RPG']",2018-01-26
+Mad Max,3.78,"['Action', 'Adventure']",2015-08-31
+Bastion,4.15,"['Action', 'Adventure', 'RPG', 'Indie']",2011-07-20
+Middle-earth: Shadow of War,3.86,"['Action', 'RPG']",2017-09-27
+Resident Evil 7: Biohazard,4.33,"['Action', 'Shooter', 'Adventure']",2017-01-23
+Batman: Arkham City - Game of the Year Edition,4.4,"['Action', 'Adventure']",2012-09-07
+Paladins,3.08,"['Action', 'Shooter']",2016-09-15
+Titanfall 2,4.31,"['Action', 'Shooter']",2016-10-28
+ARK: Survival Evolved,3.07,"['Action', 'Adventure', 'RPG', 'Massively Multiplayer', 'Indie']",2015-06-02
+Bloodborne,4.41,"['Action', 'RPG']",2015-03-24
+Cities: Skylines,4.12,"['Strategy', 'Simulation']",2015-03-10
+Journey,4.32,"['Adventure', 'Family', 'Indie']",2012-03-13
+Batman: Arkham Asylum Game of the Year Edition,4.38,"['Action', 'Adventure', 'Platformer']",2010-03-26
+Undertale,4.35,"['RPG', 'Indie']",2015-09-14
+Unturned,2.74,"['Action', 'Shooter']",2014-07-07
+Warhammer: Vermintide 2,3.61,"['Action', 'Indie']",2018-03-08
+XCOM: Enemy Unknown,4.2,['Strategy'],2012-10-09
+Fallout,4.2,['RPG'],1997-09-30
+Far Cry 5,3.72,"['Action', 'Shooter']",2018-03-27
+Mafia II,4.25,"['Action', 'Shooter']",2010-08-24
+Brothers: A Tale of Two Sons,4.18,"['Action', 'Adventure', 'Indie']",2013-08-07
+Brutal Legend,3.64,"['Action', 'Strategy']",2009-10-12
+SEGA Mega Drive and Genesis Classics,2.98,"['Action', 'Adventure', 'RPG', 'Fighting', 'Platformer']",2010-06-01
+Watch Dogs,3.6,"['Action', 'Adventure']",2014-05-27
+Heavy Rain,4.12,"['Action', 'Adventure']",2010-02-17
+Shadow of the Tomb Raider,3.91,"['Action', 'Adventure']",2018-09-14
+INSIDE,4.39,"['Action', 'Adventure', 'Indie', 'Puzzle', 'Platformer']",2016-06-28
+Metro Exodus,4.17,"['Action', 'Shooter']",2019-02-13
+Sekiro: Shadows Die Twice,4.38,"['Action', 'RPG']",2019-03-22
+Psychonauts,4.05,"['Action', 'Platformer']",2005-04-01
+Brawlhalla,3.23,"['Action', 'Casual', 'Fighting', 'Indie']",2014-04-30
+Max Payne 3,4.26,"['Action', 'Shooter']",2012-05-15
+Firewatch,4.3,"['Adventure', 'Indie']",2016-02-08
+Saints Row IV,3.82,"['Action', 'Adventure']",2013-08-20
+Assassin's Creed Odyssey,3.98,"['Action', 'RPG']",2018-10-05
+No Man's Sky,3.71,"['Action', 'Adventure', 'RPG', 'Simulation', 'Massively Multiplayer', 'Indie']",2016-08-09
+Tom Clancy's Rainbow Six Siege,3.88,"['Action', 'Shooter']",2015-12-01
+Assassin's Creed II,4.42,['Action'],2009-11-17
+Alien: Isolation,4.21,"['Action', 'Adventure']",2014-10-05
+The Darkness II,3.71,['Action'],2012-02-07
+Disco Elysium,4.37,"['Adventure', 'RPG', 'Indie']",2019-10-14
+Cuphead,4.37,"['Action', 'Indie', 'Platformer']",2017-09-29
+Hitman 2,4.05,"['Action', 'Shooter']",2018-11-13
+War Thunder,3.19,"['Action', 'Shooter', 'Massively Multiplayer']",2013-08-15
+Elden Ring,4.39,"['Action', 'RPG']",2022-02-25
+Darksiders,3.76,['Action'],2010-01-05
+Batman: Arkham Origins,3.95,['Action'],2013-10-25
+Titan Quest Anniversary Edition,3.78,"['Action', 'RPG']",2016-08-31
+Assassin's Creed Origins,3.97,"['Action', 'RPG']",2017-10-27
+DOOM Eternal,4.37,"['Action', 'Shooter']",2020-03-20
+Among Us,3.83,"['Action', 'Simulation', 'Casual']",2018-07-25
+Crusader Kings II,3.61,"['Strategy', 'Simulation']",2012-02-13
+Halo Infinite,3.64,"['Action', 'Shooter', 'Adventure']",2021-12-08
+Transistor,4.16,"['Action', 'RPG', 'Indie']",2014-05-20
+The Wolf Among Us,4.39,['Adventure'],2013-10-10
+Deus Ex: Human Revolution - Director's Cut,4.3,"['Action', 'RPG']",2013-10-22
+Battlefield 1,3.84,"['Action', 'Shooter']",2016-10-21
+Layers of Fear,3.54,"['Adventure', 'Indie']",2016-02-16
+GRID 2,3.29,"['Racing', 'Arcade']",2013-05-27
+Far Cry 4,3.82,['Shooter'],2014-11-18
+Resident Evil 5,3.82,"['Action', 'Shooter']",2009-03-05
+XCOM 2,4.1,"['RPG', 'Strategy']",2016-02-04
+Ori and the Blind Forest: Definitive Edition,4.42,"['Adventure', 'Platformer']",2016-04-27
+Counter-Strike: Condition Zero,3.14,['Action'],2004-03-01
+The Stanley Parable,4.37,"['Adventure', 'Indie']",2013-10-17
+Call of Duty: Modern Warfare 2,4.27,['Shooter'],2009-11-10
+Insurgency,3.42,"['Action', 'Shooter', 'Indie']",2014-01-22
+Black Desert Online,2.91,"['Action', 'Adventure', 'RPG', 'Strategy', 'Simulation', 'Massively Multiplayer']",2014-12-01
+Saints Row 2,3.57,"['Action', 'Shooter']",2008-10-14
+Amnesia: A Machine for Pigs,3.23,"['Action', 'Adventure', 'Indie']",2013-09-09
+Ori and the Blind Forest,4.38,"['Adventure', 'Platformer']",2015-03-10
+Total War: SHOGUN 2,3.61,['Strategy'],2011-03-14
+Sid Meier’s Civilization VI,4.16,"['Strategy', 'Simulation']",2016-10-20
+Kingdom Come: Deliverance,4.05,"['Action', 'Adventure', 'RPG']",2018-02-13
+Assassin’s Creed III,3.75,['Action'],2012-10-30
+Trine 2: Complete Story,3.72,"['Action', 'Indie', 'Puzzle', 'Platformer']",2013-06-05
+Viscera Cleanup Detail: Shadow Warrior,2.59,"['Action', 'Simulation', 'Indie']",2013-09-26
+SOMA,4.16,"['Action', 'Adventure', 'Indie']",2015-09-21
+Red Dead Redemption,4.42,"['Action', 'Shooter']",2010-05-18
+The Last of Us Part II,4.42,"['Action', 'Shooter', 'Adventure']",2020-06-19
+Watch Dogs 2,3.84,"['Action', 'Adventure']",2016-11-28
+This War of Mine,4.06,"['Adventure', 'Simulation', 'Indie']",2014-11-14
+Thief,3.26,"['Action', 'Adventure']",2014-02-25
+Call of Juarez: Gunslinger,3.8,"['Action', 'Shooter']",2013-05-14
+Grand Theft Auto III,4.15,"['Action', 'Shooter']",2001-10-22
+Wolfenstein II: The New Colossus,4.09,"['Action', 'Shooter']",2017-10-25
+Dead Cells,4.24,"['Action', 'RPG', 'Indie', 'Platformer']",2018-08-07
+Killing Floor,3.45,['Action'],2009-05-14
+Shadowrun Returns,3.5,"['RPG', 'Strategy', 'Indie']",2013-07-24
+Call of Duty: Black Ops III,3.27,"['Action', 'Shooter']",2015-11-06
+"Papers, Please",4.38,"['Simulation', 'Educational', 'Indie', 'Puzzle']",2013-08-08
+The Last Of Us,4.54,"['Action', 'Adventure']",2013-06-14
+Divinity: Original Sin 2,4.38,"['RPG', 'Strategy']",2017-09-14
+Magicka,3.79,"['Action', 'RPG']",2011-01-25
+Darksiders Warmastered Edition,3.68,"['Action', 'RPG']",2016-11-29
+Quake Champions,3.26,"['Action', 'Shooter']",2017-08-22
+Lara Croft and the Temple of Osiris,3.09,"['Action', 'Adventure', 'Puzzle']",2014-12-08
+Dead Island,3.48,"['Action', 'Shooter', 'RPG']",2011-09-06
+A Plague Tale: Innocence,4.15,"['Action', 'Adventure']",2019-05-13
+Subnautica,4.24,"['Adventure', 'Indie']",2018-01-23
+South Park: The Stick of Truth,4.22,"['Adventure', 'RPG']",2014-03-04
+Fallout Shelter,3.42,"['RPG', 'Simulation']",2015-06-15
+FEZ,4.0,"['Action', 'Adventure', 'Indie', 'Puzzle', 'Platformer']",2012-04-13
+Half-Life: Blue Shift,3.73,"['Action', 'Shooter']",2001-06-01
+Assassin's Creed Unity,3.63,['Action'],2014-11-11
+Resident Evil 4 (2005),4.4,"['Action', 'Shooter']",2005-01-11
+Half-Life: Opposing Force,3.86,"['Action', 'Shooter']",1999-11-19
+Darkest Dungeon,4.17,"['RPG', 'Strategy', 'Indie']",2016-01-18
+Castle Crashers,3.89,"['Action', 'Indie']",2008-08-27
+DiRT Rally,3.69,"['Simulation', 'Sports', 'Racing']",2015-12-07
+Dying Light: The Following - Enhanced Edition,4.13,"['Action', 'RPG']",2015-01-26
+Star Wars: Knights of the Old Republic,4.35,"['Action', 'RPG']",2003-07-15
+Call of Duty: Black Ops,4.05,"['Action', 'Shooter']",2010-11-09
+Don't Starve,3.85,['Indie'],2013-04-22
+Halo: The Master Chief Collection,4.25,"['Action', 'Adventure']",2014-11-11
+Dragon Age: Origins,4.39,['RPG'],2009-11-03
+Chivalry: Medieval Warfare,3.41,"['Action', 'Indie']",2012-10-16
+The Binding of Isaac,3.91,"['Action', 'RPG', 'Indie']",2011-09-28
+DmC: Devil May Cry,4.02,"['Action', 'Adventure']",2013-01-15
+Syberia,3.94,"['Adventure', 'Puzzle']",2002-01-09
+Quantum Break,3.91,"['Action', 'Shooter']",2016-04-05
+Dead Space 2,4.38,"['Action', 'Shooter']",2011-01-25
+Sleeping Dogs: Definitive Edition,4.15,"['Action', 'Adventure']",2014-10-08
+The Bureau: XCOM Declassified,3.05,"['Action', 'Shooter']",2013-08-20
+Batman: Arkham City,4.41,['Action'],2011-10-18
+Devil May Cry 5,4.25,['Action'],2019-03-08
+Fallout 3,4.08,"['Shooter', 'RPG']",2008-10-28
+Rayman Legends,4.16,['Platformer'],2013-08-29
+Beyond: Two Souls,3.8,"['Action', 'Adventure']",2013-10-07
+Yakuza 0,4.36,"['Action', 'RPG']",2015-03-12
+Guacamelee! Super Turbo Championship Edition,3.55,"['Action', 'Indie', 'Platformer']",2014-07-01
+Days Gone,3.97,['Action'],2019-04-26
+Mafia III,3.14,"['Action', 'Adventure']",2016-10-06
+Battlefield 4,3.95,['Shooter'],2013-10-29
+SUPERHOT,4.19,"['Action', 'Shooter', 'Indie']",2016-02-24
+The Sims 4,3.67,"['Strategy', 'Simulation', 'Casual']",2014-09-02
+Wallpaper Engine,4.04,['Casual'],2016-10-10
+Torchlight II,3.84,"['Action', 'RPG']",2012-09-20
+What Remains of Edith Finch,4.38,"['Adventure', 'Indie']",2017-04-23
+Goat Simulator,3.18,"['Action', 'Simulation', 'Casual', 'Indie']",2014-04-01
+Uncharted 3: Drake's Deception,4.37,['Action'],2011-11-01
+Call of Duty: WWII,3.55,"['Action', 'Shooter']",2017-11-03
+Homefront,2.96,['Shooter'],2011-03-15
+Ori and the Will of the Wisps,4.42,"['Action', 'Adventure', 'Platformer']",2020-03-10
+Sniper Elite V2,3.4,"['Action', 'Shooter']",2012-05-01
+Hotline Miami 2: Wrong Number,4.28,"['Action', 'Shooter', 'Arcade', 'Indie']",2015-03-09
+Resident Evil 6,3.43,"['Action', 'Shooter']",2012-10-02
+Resident Evil 2 (1998),4.32,['Action'],1998-01-21
+Grim Fandango Remastered,4.0,"['Adventure', 'Puzzle']",2015-01-26
+Dragon Age: Inquisition,3.8,"['Action', 'RPG', 'Strategy']",2014-11-18
+The Witness,4.0,"['Adventure', 'Indie', 'Puzzle']",2016-01-25
+Broforce,4.02,"['Action', 'Indie', 'Platformer']",2015-10-15
+FTL: Faster Than Light,4.25,"['Strategy', 'Simulation', 'Indie']",2012-09-14
+Euro Truck Simulator 2,4.12,"['Simulation', 'Indie']",2012-10-19
+The Outer Worlds,3.85,"['Action', 'Shooter', 'Adventure', 'RPG']",2019-10-25
+Call of Duty: Modern Warfare 3,3.78,"['Action', 'Shooter']",2011-11-08
+The Forest,3.74,"['Action', 'Adventure', 'Indie']",2018-04-30
+Kingdom: Classic,3.39,"['Strategy', 'Simulation', 'Indie']",2015-09-21
+The Legend of Zelda: Breath of the Wild,4.47,"['Action', 'Adventure', 'RPG']",2017-03-03
+POSTAL 2,3.91,"['Action', 'Shooter', 'Adventure', 'Indie']",2003-04-13
+Forza Horizon 4,4.37,"['Racing', 'Arcade']",2018-10-02
+Surviving Mars,3.47,"['Strategy', 'Simulation']",2018-03-14
+The Walking Dead: Season 2,4.06,"['Action', 'Adventure']",2013-12-16
+Borderlands 3,3.87,"['Action', 'Shooter', 'Adventure', 'RPG']",2019-09-13
+Syberia 2,3.89,"['Adventure', 'Puzzle']",2004-03-30
+Dark Souls II: Scholar of the First Sin,4.15,"['Action', 'RPG']",2015-04-01
+Deus Ex: Human Revolution,4.36,"['Action', 'RPG']",2011-08-22
+Sleeping Dogs,4.14,"['Action', 'Adventure']",2012-08-14
+Bayonetta,4.3,"['Action', 'Adventure']",2009-06-23
+Alan Wake's American Nightmare,3.41,"['Action', 'Shooter']",2012-02-22
+A Story About My Uncle,3.15,"['Adventure', 'Arcade', 'Casual', 'Indie', 'Platformer']",2014-05-27
+To the Moon,4.29,"['Action', 'Adventure', 'RPG', 'Casual', 'Indie']",2011-01-10
+Celeste,4.37,"['Indie', 'Platformer']",2018-01-25
+SMITE,3.05,['Action'],2015-08-19
+Team Fortress Classic,2.92,"['Action', 'Shooter', 'Massively Multiplayer']",1999-04-01
+Call of Duty: Black Ops II,3.96,"['Action', 'Shooter']",2012-11-13
+Borderlands Game of the Year Enhanced,3.79,"['Action', 'Shooter', 'RPG']",2019-04-03
+Frostpunk,4.19,"['Strategy', 'Simulation']",2018-04-24
+Tom Clancy’s The Division,3.7,"['Action', 'Shooter', 'RPG']",2016-03-07
+"Warhammer 40,000: Space Marine",3.47,"['Action', 'Shooter']",2011-09-05
+Black Mesa,4.35,"['Action', 'Shooter', 'Indie']",2020-03-06
+PAYDAY The Heist,3.34,"['Action', 'Shooter']",2011-10-18
+Metal Gear Rising: Revengeance,4.25,['Action'],2013-02-19
+Ratchet & Clank,4.05,"['Action', 'Shooter', 'Adventure']",2016-04-12
+Batman: Arkham Asylum,4.4,['Action'],2009-08-25
+Assassin's Creed Syndicate,3.66,['Action'],2015-10-23
+Age of Wonders III,2.92,"['RPG', 'Strategy']",2014-03-31
+Ghost of Tsushima,4.41,"['Action', 'Adventure', 'RPG']",2020-07-17
+inFAMOUS Second Son,3.91,['Action'],2014-03-21
+Dead by Daylight,3.5,['Action'],2016-06-14
+Mafia: The City of Lost Heaven,4.35,['Action'],2002-08-28
+Half-Life: Source,3.71,['Action'],2004-06-01
+LEGO The Lord of the Rings,3.56,"['Action', 'Adventure']",2012-10-30
+Overcooked,4.07,"['Simulation', 'Arcade', 'Casual', 'Indie']",2016-08-01
+S.T.A.L.K.E.R.: Shadow of Chernobyl,4.27,"['Action', 'Shooter', 'Adventure', 'RPG']",2007-03-19
+Rust,3.37,"['Action', 'Shooter', 'RPG', 'Massively Multiplayer', 'Indie']",2018-02-09
+STAR WARS Battlefront II,3.57,"['Action', 'Shooter', 'Adventure']",2017-11-17
+A Way Out,4.12,"['Action', 'Adventure']",2018-03-23
+Deus Ex: Game of the Year Edition,4.11,"['Action', 'Shooter', 'RPG']",2000-06-22
+Human: Fall Flat,3.83,"['Action', 'Indie', 'Puzzle']",2016-07-22
+Until Dawn,4.1,"['Action', 'Adventure']",2015-08-25
+Doki Doki Literature Club!,4.06,"['Adventure', 'Indie']",2017-09-22
+Hitman: Blood Money,4.31,"['Action', 'Shooter']",2006-05-29
+Dark Souls: Prepare To Die Edition,4.36,"['Action', 'RPG']",2012-08-23
+Max Payne,4.45,"['Action', 'Shooter']",2001-07-25
+The Long Dark,3.91,"['Action', 'Adventure', 'Simulation', 'Indie']",2014-09-22
+FINAL FANTASY XV,3.87,['RPG'],2016-11-29
+Company of Heroes,3.68,['Strategy'],2006-09-11
+Oddworld: Abe's Oddysee,3.54,"['Action', 'Platformer']",1997-09-19
+Tropico 4,3.51,"['Strategy', 'Simulation']",2011-08-24
+The Binding of Isaac: Rebirth,4.32,"['Action', 'RPG']",2014-11-03
+Counter-Strike: Condition Zero Deleted Scenes,2.88,['Shooter'],2004-03-23
+Titan Souls,3.34,"['Action', 'Indie']",2015-04-13
+Mortal Kombat 11,3.97,"['Action', 'Adventure', 'Fighting']",2019-04-22
+Divinity: Original Sin - Enhanced Edition,4.25,"['RPG', 'Indie']",2015-10-27
+Wolfenstein: The Old Blood,4.0,"['Action', 'Shooter']",2015-05-04
+Stray,4.15,"['Action', 'Adventure', 'Indie', 'Puzzle', 'Platformer']",2022-07-19
+Ryse: Son of Rome,3.59,"['Action', 'Adventure']",2013-11-22
+Dark Souls: Remastered,4.47,"['Action', 'RPG']",2018-05-23
+Darksiders II Deathinitive Edition,3.79,"['Action', 'RPG']",2015-11-05
+Hacknet,3.19,"['Simulation', 'Indie']",2015-08-11
+Star Wars: Knights of the Old Republic II – The Sith Lords,4.36,"['Adventure', 'RPG']",2004-12-06
+Fallout 2,4.34,['RPG'],1998-09-30
+Guns of Icarus Online,2.59,"['Action', 'Simulation', 'Indie']",2012-09-30
+The Evil Within,3.98,"['Action', 'Shooter', 'Adventure']",2014-10-12
+Dear Esther: Landmark Edition,3.31,"['Adventure', 'Casual', 'Indie']",2017-02-14
+Prison Architect,3.73,"['Strategy', 'Simulation', 'Indie']",2015-10-05
+Beholder,3.81,"['Adventure', 'RPG', 'Strategy', 'Indie']",2016-11-08
+Sea of Thieves,3.69,"['Action', 'Adventure', 'Massively Multiplayer']",2018-03-20
+Sid Meier's Civilization III Complete,3.7,"['Strategy', 'Simulation']",2001-10-29
+Minion Masters,2.3,"['Action', 'Strategy', 'Indie']",2019-05-24
+It Takes Two,4.47,"['Action', 'Adventure', 'Platformer']",2021-03-26
+Fallout 3: Game of the Year Edition,4.14,"['Action', 'RPG']",2009-10-13
+Assassin's Creed,3.92,['Action'],2007-11-13
+Jotun: Valhalla Edition,3.06,"['Action', 'Indie']",2015-09-29
+Murdered: Soul Suspect,3.47,"['Action', 'Adventure', 'RPG']",2014-06-03
+LEGO The Hobbit,3.4,"['Action', 'Adventure', 'Family']",2014-04-08
+Resident Evil 2,4.5,"['Action', 'Shooter', 'Adventure']",2019-01-25
+Starbound,3.82,"['Action', 'RPG', 'Casual', 'Indie']",2016-07-22
+Braid,4.16,"['Action', 'Arcade', 'Indie', 'Puzzle', 'Platformer']",2008-08-06
+F.E.A.R.,4.26,"['Action', 'Shooter']",2005-10-18
+Resident Evil,4.18,"['Action', 'Shooter']",1996-03-22
+Killing Floor 2,3.53,['Action'],2016-11-18
+Sanctum 2,2.97,"['Action', 'Shooter', 'Strategy', 'Indie']",2013-05-15
+Assassin’s Creed Brotherhood,4.28,['Action'],2010-11-16
+Serious Sam Fusion 2017 (beta),3.05,"['Action', 'Indie']",2017-03-20
+Red Orchestra 2: Heroes of Stalingrad with Rising Storm,3.25,['Action'],2011-09-13
+Trine Enchanted Edition,3.83,"['Action', 'Arcade', 'Indie', 'Platformer']",2009-07-02
+GRID (2008),3.67,['Racing'],2008-06-03
+Neverwinter,2.92,"['Action', 'RPG', 'Massively Multiplayer']",2013-06-20
+Enter the Gungeon,4.07,"['Action', 'Shooter', 'Indie']",2016-04-04
+Resident Evil Revelations 2,3.68,"['Action', 'Adventure']",2015-02-24
+Far Cry 3: Blood Dragon,4.0,['Shooter'],2013-04-30
+The Elder Scrolls Online: Tamriel Unlimited,3.48,"['Action', 'RPG', 'Massively Multiplayer']",2015-03-17
+Fortnite Battle Royale,3.28,"['Action', 'Shooter']",2017-09-26
+Endless Space - Collection,3.09,['Strategy'],2012-07-04
+Lords of the Fallen (2014),2.91,"['Action', 'Adventure', 'RPG']",2014-10-28
+Serious Sam 3: BFE,3.46,"['Action', 'Shooter', 'Indie']",2011-11-22
+Darksiders II,3.74,"['Action', 'RPG']",2012-08-14
+Mafia: Definitive Edition,4.24,"['Action', 'Shooter']",2020-09-25
+Resident Evil 3,4.04,"['Action', 'Shooter', 'Adventure']",2020-04-02
+Jet Set Radio,3.41,"['Action', 'Sports', 'Platformer']",2000-06-29
+Mark of the Ninja,3.99,"['Action', 'Indie', 'Platformer']",2012-09-07
+BattleBlock Theater,3.84,"['Action', 'Adventure', 'Casual', 'Indie', 'Platformer']",2013-04-03
+Mafia II: Definitive Edition,3.89,"['Action', 'Adventure']",2020-05-19
+Game of Thrones - A Telltale Games Series,3.23,"['Action', 'Adventure']",2014-12-02
+Drawful 2,3.2,"['Strategy', 'Casual', 'Indie']",2016-06-20
+Orwell: Keeping an Eye On You,3.28,"['Adventure', 'Simulation', 'Indie', 'Puzzle']",2016-10-27
+Slay the Spire,4.37,"['RPG', 'Strategy', 'Card', 'Indie']",2019-01-22
+Final Fantasy VII,4.37,"['Action', 'Adventure', 'RPG']",2020-04-10
+Deep Rock Galactic,4.11,"['Action', 'Indie']",2020-05-13
+Remember Me,3.67,"['Action', 'Adventure', 'Casual', 'Indie', 'Platformer']",2013-06-04
+Dragon's Dogma: Dark Arisen,3.91,"['Action', 'Adventure', 'RPG']",2013-04-23
+Vampire Survivors,4.19,"['Action', 'RPG', 'Casual', 'Indie']",2022-10-20
+Far Cry 2,3.46,"['Action', 'Shooter']",2008-10-21
+Stellaris,4.1,"['Strategy', 'Simulation']",2016-05-08
+Oxenfree,3.91,"['Adventure', 'RPG', 'Indie']",2016-01-14
+ABZU,3.91,"['Adventure', 'Simulation', 'Indie']",2016-08-02
+Tales from the Borderlands: A Telltale Game Series,4.18,['Adventure'],2015-10-21
+Child of Light,3.85,"['RPG', 'Indie']",2014-04-29
+Broken Age,3.65,"['Adventure', 'Casual', 'Family', 'Indie', 'Puzzle']",2014-01-28
+The Playroom,2.27,['Arcade'],2013-11-15
+F.E.A.R. 3,3.35,"['Action', 'Shooter']",2011-03-25
+VRChat,3.14,"['Adventure', 'Simulation', 'Sports', 'Casual', 'Massively Multiplayer']",2017-02-01
+PlanetSide 2,2.97,"['Action', 'Shooter', 'Massively Multiplayer']",2012-11-20
+F.E.A.R. 2: Project Origin,3.85,"['Action', 'Shooter']",2009-02-10
+Destiny,3.68,"['Action', 'Shooter']",2014-09-09
+Gwent: The Witcher Card Game,3.59,"['RPG', 'Strategy', 'Board Games', 'Card']",2018-10-23
+Resident Evil: Village,4.39,"['Action', 'Adventure']",2021-05-07
+Sonic Mania,3.86,"['Action', 'Adventure', 'Casual', 'Platformer']",2017-08-15
+Monaco: What's Yours Is Mine,2.99,"['Action', 'Strategy', 'Casual', 'Indie']",2013-04-24
+Dying Light,4.1,"['Action', 'Adventure', 'RPG']",2015-01-27
+Lara Croft and the Guardian of Light,3.43,"['Action', 'Adventure']",2010-08-05
