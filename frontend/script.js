@@ -11,7 +11,7 @@ addButton.addEventListener("click", async () => {
     if (!query) return;
 
     // Buscar juegos que coincidan en la API
-    const response = await fetch(`http://127.0.0.1:8000/games?query=${query}`);
+    const response = await fetch(`https://game-recommender-rl3g.onrender.com/games?query=${query}`);
     const data = await response.json();
 
     if (data.results.length > 0) {
@@ -28,7 +28,7 @@ addButton.addEventListener("click", async () => {
 getRecommendations.addEventListener("click", async () => {
     if (favorites.length === 0) return;
 
-    const response = await fetch("http://127.0.0.1:8000/recommend", {
+    const response = await fetch("https://game-recommender-rl3g.onrender.com/recommend", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
