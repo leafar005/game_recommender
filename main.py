@@ -6,6 +6,15 @@ import logging
 
 from fastapi.middleware.cors import CORSMiddleware
 
+import os
+
+# Esto ayuda a Render a encontrar el archivo sin importar desde dónde se ejecute
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(BASE_DIR, "data", "games.csv")
+
+#Cargar el modelo de recomendación al iniciar la aplicación
+recommender = GameRecommender(csv_path)
+
 # Configuración básica de logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -22,9 +31,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-#Cargar el modelo de recomendación al iniciar la aplicación
-recommender = GameRecommender("data/games.csv")
 
 # Definir el modelo de datos para la solicitud de recomendación
 class RecommendationRequest(BaseModel):

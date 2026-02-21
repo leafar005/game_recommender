@@ -28,8 +28,6 @@ addButton.addEventListener("click", async () => {
 getRecommendations.addEventListener("click", async () => {
     if (favorites.length === 0) return;
 
-    console.log("Enviando petición:", favorites); // debug
-
     const response = await fetch("http://127.0.0.1:8000/recommend", {
         method: "POST",
         headers: {
@@ -39,7 +37,6 @@ getRecommendations.addEventListener("click", async () => {
     });
 
     const data = await response.json();
-    console.log("Respuesta recibida:", data); // debug
     updateResults(data.recommendations);
 });
 
