@@ -8,6 +8,63 @@ const resultsList = document.getElementById("results-list");
 let favorites = [];
 
 
+const autocompleteContainer = document.getElementById("autocomplete-results");
+
+searchInput.addEventListener("input", async () => {
+    const query = searchInput.value.trim();
+    
+    // Limpiar sugerencias si el texto es muy corto
+    if (query.length < 3) {
+        autocompleteContainer.innerHTML = "";
+        return;
+    }
+
+    try {
+        const response = await fetch(`https://game-recommender-rl3g.onrender.com/games?query=${query}`);
+        const data = await response.json();
+        
+        displaySuggestions(data.results);
+    } catch (error) {
+        console.error("Error buscando sugerencias:", error);
+    }
+});
+
+function displaySuggestions(games) {
+    autocompleteContainer.innerHTML = ""; // Limpiar anteriores
+
+    games.forEach(game => {
+        const div = document.createElement("div");
+        div.className = "autocomplete-item";
+        
+        // Estructura: Imagen + Nombre
+        div.innerHTML = `
+            ${game.cover_url ? `<img src="${game.cover_url}">` : ''}
+            <span>${game.name}</span>
+        `;
+
+        // Al hacer clic en una sugerencia
+        div.addEventListener("click", () => {
+            // Añadir directamente a favoritos
+            if (!favorites.some(f => f.name === game.name)) {
+                favorites.push(game);
+                updateFavorites();
+            }
+            // Limpiar buscador y sugerencias
+            searchInput.value = "";
+            autocompleteContainer.innerHTML = "";
+        });
+
+        autocompleteContainer.appendChild(div);
+    });
+}
+
+// 4. Cerrar sugerencias si se hace clic fuera del buscador
+document.addEventListener("click", (e) => {
+    if (e.target !== searchInput) {
+        autocompleteContainer.innerHTML = "";
+    }
+});
+
 function createGameListItem(game) {
     const li = document.createElement("li");
     li.style.display = "flex"; // Para alinear el texto y el botón
