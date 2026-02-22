@@ -29,41 +29,6 @@ searchInput.addEventListener("input", async () => {
     }
 });
 
-function displaySuggestions(games) {
-    autocompleteContainer.innerHTML = ""; // Limpiar anteriores
-
-    games.forEach(game => {
-        const div = document.createElement("div");
-        div.className = "autocomplete-item";
-        
-        // Estructura: Imagen + Nombre
-        div.innerHTML = `
-            ${game.cover_url ? `<img src="${game.cover_url}">` : ''}
-            <span>${game.name}</span>
-        `;
-
-        // Al hacer clic en una sugerencia
-        div.addEventListener("click", () => {
-            // Añadir directamente a favoritos
-            if (!favorites.some(f => f.name === game.name)) {
-                favorites.push(game);
-                updateFavorites();
-            }
-            // Limpiar buscador y sugerencias
-            searchInput.value = "";
-            autocompleteContainer.innerHTML = "";
-        });
-
-        autocompleteContainer.appendChild(div);
-    });
-}
-
-// 4. Cerrar sugerencias si se hace clic fuera del buscador
-document.addEventListener("click", (e) => {
-    if (e.target !== searchInput) {
-        autocompleteContainer.innerHTML = "";
-    }
-});
 
 function createGameListItem(game) {
     const li = document.createElement("li");
