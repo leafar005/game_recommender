@@ -9,16 +9,26 @@
     <div class="container">
         <h1>🎮 Game Recommender</h1>
 
+        <div class="instructions">
+        <p>1. Busca tus juegos favoritos y añádelos a la lista.</p>
+        <p>2. Cuando tengas al menos uno, pulsa "Recomiéndame".</p>
+        <p>3. Descubre nuevos títulos basados en tus gustos</p>
+        </div>
+
         <div class="search-section">
             <input type="text" id="game-search" placeholder="Busca un juego...">
             <button id="add-game">Añadir a la lista</button>
         </div>
 
         <div class="favorites-section">
-            <h3>Lista:</h3>
+            <h3>Tu selección:</h3>
             <ul id="favorites-list"></ul>
-            <button id="get-recommendations">Recomiéndame</button>
+            <div class="button-group">
+                <button id="get-recommendations">Recomiéndame</button>
+                <button id="clear-list" class="btn-secondary">Limpiar lista</button>
+            </div>
         </div>
+
 
         <div class="results-section">
             <h3>Recomendaciones:</h3>

@@ -99,3 +99,12 @@ getRecommendations.addEventListener("click", async () => {
     // Python ha hecho su magia y nos devuelve nuevos objetos con foto. Los pintamos.
     updateResults(data.recommendations);
 });
+
+const clearButton = document.getElementById("clear-list");
+clearButton.addEventListener("click", () => {
+    favorites = [];
+    updateFavorites();
+    resultsList.innerHTML = ""; // Limpiamos también las recomendaciones
+
+    searchInput.value = ""; // Vaciamos el buscador
+});

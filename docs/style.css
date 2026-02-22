@@ -5,6 +5,20 @@ body {
     text-align: center;
 }
 
+.instructions {
+    background-color: #3d3d3d;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    text-align: left;
+    border-left: 4px solid #4caf50;
+}
+
+.instructions p {
+    margin: 5px 0;
+}
+
 .container {
     max-width: 600px;
     margin: 50px auto;
@@ -18,6 +32,21 @@ input[type="text"] {
     width: 60%;
     border-radius: 5px;
     border: none;
+}
+
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-secondary {
+    background-color: #f44336; /* Color rojo para indicar limpieza/borrado */
+}
+
+.btn-secondary:hover {
+    background-color: #d32f2f;
 }
 
 button {
