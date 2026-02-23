@@ -2,6 +2,10 @@
 
 Un motor de recomendación de videojuegos basado en contenido, construido con Python y técnicas de Machine Learning. El sistema analiza las características de miles de juegos para ofrecer sugerencias personalizadas basadas en la similitud de metadatos.
 
+## 🌐  Página web:
+
+https://leafar005.github.io/game_recommender/
+
 ## 🚀 Características principales
 
 - **Extracción de datos:** Conexión automática con la API de RAWG para obtener información actualizada de videojuegos.

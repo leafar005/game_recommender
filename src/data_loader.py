@@ -88,7 +88,7 @@ def save_games(num_pages=10): # 10 páginas de 500 juegos = 5000 juegos
                 "rating": round(game.get("rating", 0.0), 2),
                 "genres": all_tags,
                 "release_date": released,
-                "cover_url": cover_url
+                "cover_url": cover_url,
             })
 
     # Guardamos todos los juegos en un archivo CSV

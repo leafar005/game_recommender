@@ -8,6 +8,31 @@ const resultsList = document.getElementById("results-list");
 let favorites = [];
 
 
+<<<<<<< HEAD
+=======
+const autocompleteContainer = document.getElementById("autocomplete-results");
+
+searchInput.addEventListener("input", async () => {
+    const query = searchInput.value.trim();
+    
+    // Limpiar sugerencias si el texto es muy corto
+    if (query.length < 3) {
+        autocompleteContainer.innerHTML = "";
+        return;
+    }
+
+    try {
+        const response = await fetch(`https://game-recommender-rl3g.onrender.com/games?query=${query}`);
+        const data = await response.json();
+        
+        displaySuggestions(data.results);
+    } catch (error) {
+        console.error("Error buscando sugerencias:", error);
+    }
+});
+
+
+>>>>>>> main
 function createGameListItem(game) {
     const li = document.createElement("li");
     li.style.display = "flex"; // Para alinear el texto y el botón
@@ -98,4 +123,16 @@ getRecommendations.addEventListener("click", async () => {
     
     // Python ha hecho su magia y nos devuelve nuevos objetos con foto. Los pintamos.
     updateResults(data.recommendations);
+<<<<<<< HEAD
+=======
+});
+
+const clearButton = document.getElementById("clear-list");
+clearButton.addEventListener("click", () => {
+    favorites = [];
+    updateFavorites();
+    resultsList.innerHTML = ""; // Limpiamos también las recomendaciones
+
+    searchInput.value = ""; // Vaciamos el buscador
+>>>>>>> main
 });
