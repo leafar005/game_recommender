@@ -52,7 +52,7 @@ class GameRecommender:
         for _, row in results.iterrows():
             lista_resultados.append({
                 "name": row["name"],
-                "cover_url": row["cover_url"]
+                "cover_url": row["cover_url"],
             })
         return lista_resultados
     

@@ -127,35 +127,105 @@ ul {
 /* Items de listas (favoritos y resultados) con cover alineada */
 .game-item {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-start;
     gap: 15px;
     margin: 5px 0;
     background: #3d3d3d;
     border-radius: 8px;
     padding: 10px 12px;
-    flex-wrap: wrap;
-}
-
-.game-main {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    min-width: 0;
+    text-align: left;
 }
 
 .game-cover {
     width: 60px;
     height: auto;
     border-radius: 5px;
-    flex-shrink: 0;
 }
 
-.game-genres {
-    margin-left: auto;
-    color: #c5f36b;
+.game-main {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.game-name {
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+.game-genre {
     font-size: 0.9em;
+    color: #c8c8c8;
     text-align: right;
-    max-width: 45%;
-    line-height: 1.3;
+    margin-left: auto;
+    max-width: 50%;
+}
+
+/* Widget flotante About en esquina inferior derecha */
+.about-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+    z-index: 1000;
+}
+
+#about-toggle {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+#about-toggle:hover {
+    background-color: #45a049;
+}
+
+.about-panel {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    background: #2c2c2c;
+    border: 1px solid #3f3f3f;
+    border-radius: 12px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.55);
+    padding: 16px 18px 18px 18px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.about-panel h4 {
+    margin: 0 0 12px;
+}
+
+.about-panel p {
+    margin: 4px 0;
+    color: #dcdcdc;
+}
+
+.about-panel.open {
+    display: block;
+}
+
+.about-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    color: #f0f0f0;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.about-close:hover {
+    color: #ffffff;
 }

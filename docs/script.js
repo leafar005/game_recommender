@@ -4,6 +4,9 @@ const addButton = document.getElementById("add-game");
 const favoritesList = document.getElementById("favorites-list");
 const getRecommendations = document.getElementById("get-recommendations");
 const resultsList = document.getElementById("results-list");
+const aboutToggle = document.getElementById("about-toggle");
+const aboutPanel = document.getElementById("about-panel");
+const aboutClose = document.getElementById("about-close");
 
 // Estado en memoria: lista de juegos favoritos seleccionados
 let favorites = [];
@@ -31,7 +34,37 @@ searchInput.addEventListener("input", async () => {
     }
 });
 
-function createGameListItem(game) {
+// Pinta la lista de sugerencias y permite elegir una para rellenar el buscador
+function displaySuggestions(games) {
+    autocompleteContainer.innerHTML = "";
+    if (!games || games.length === 0) return;
+
+    games.slice(0, 10).forEach(game => {
+        const item = document.createElement("div");
+        item.className = "autocomplete-item";
+
+        if (game.cover_url) {
+            const img = document.createElement("img");
+            img.src = game.cover_url;
+            img.alt = `Cover de ${game.name}`;
+            item.appendChild(img);
+        }
+
+        const name = document.createElement("span");
+        name.textContent = game.name;
+        item.appendChild(name);
+
+        item.addEventListener("click", () => {
+            searchInput.value = game.name;
+            autocompleteContainer.innerHTML = "";
+        });
+
+        autocompleteContainer.appendChild(item);
+    });
+}
+
+// Crea un elemento de lista con texto e imagen opcional
+function createGameListItem(game, withGenres = true) {
     const li = document.createElement("li");
     li.className = "game-item";
 
@@ -43,9 +76,22 @@ function createGameListItem(game) {
         li.appendChild(img);
     }
 
-    const span = document.createElement("span");
-    span.textContent = game.name;
-    li.appendChild(span);
+    const info = document.createElement("div");
+    info.className = "game-main";
+
+    const name = document.createElement("span");
+    name.className = "game-name";
+    name.textContent = game.name;
+    info.appendChild(name);
+
+    li.appendChild(info);
+
+    if (withGenres) {
+        const genre = document.createElement("span");
+        genre.className = "game-genre";
+        genre.textContent = game.genres ? game.genres.join(", ") : "Sin géneros";
+        li.appendChild(genre);
+    }
 
     return li;
 }
@@ -55,7 +101,7 @@ function updateFavorites() {
     favoritesList.innerHTML = ""; // Limpiamos la lista actual
     favorites.forEach(game => {
         // Fabricamos el elemento y lo pegamos
-        favoritesList.appendChild(createGameListItem(game));
+        favoritesList.appendChild(createGameListItem(game, false));
     });
 }
 
@@ -63,7 +109,7 @@ function updateFavorites() {
 function updateResults(recommendations) {
     resultsList.innerHTML = ""; 
     recommendations.forEach(game => {
-        resultsList.appendChild(createGameListItem(game));
+        resultsList.appendChild(createGameListItem(game, true));
     });
 }
 
@@ -123,3 +169,16 @@ clearButton.addEventListener("click", () => {
 
     searchInput.value = ""; // Vaciamos el buscador
 });
+
+// Pestaña About: alterna visibilidad del panel (se ejecuta solo si existe)
+if (aboutToggle && aboutPanel) {
+    aboutToggle.addEventListener("click", () => {
+        aboutPanel.classList.toggle("open");
+    });
+}
+
+if (aboutClose && aboutPanel) {
+    aboutClose.addEventListener("click", () => {
+        aboutPanel.classList.remove("open");
+    });
+}
