@@ -31,36 +31,6 @@ searchInput.addEventListener("input", async () => {
     }
 });
 
-// Pinta la lista de sugerencias y permite elegir una para rellenar el buscador
-function displaySuggestions(games) {
-    autocompleteContainer.innerHTML = "";
-    if (!games || games.length === 0) return;
-
-    games.slice(0, 10).forEach(game => {
-        const item = document.createElement("div");
-        item.className = "autocomplete-item";
-
-        if (game.cover_url) {
-            const img = document.createElement("img");
-            img.src = game.cover_url;
-            img.alt = `Cover de ${game.name}`;
-            item.appendChild(img);
-        }
-
-        const name = document.createElement("span");
-        name.textContent = game.name;
-        item.appendChild(name);
-
-        item.addEventListener("click", () => {
-            searchInput.value = game.name;
-            autocompleteContainer.innerHTML = "";
-        });
-
-        autocompleteContainer.appendChild(item);
-    });
-}
-
-// Crea un elemento de lista con texto e imagen opcional
 function createGameListItem(game) {
     const li = document.createElement("li");
     li.className = "game-item";

@@ -111,7 +111,7 @@ class GameRecommender:
             recommendations.append({
                 "name": game_name,
                 "cover_url": cover_url,
-                "genres": genres,
+                "genres": genres
             })
 
             if len(recommendations) == top_n:

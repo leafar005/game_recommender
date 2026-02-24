@@ -127,16 +127,35 @@ ul {
 /* Items de listas (favoritos y resultados) con cover alineada */
 .game-item {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
     margin: 5px 0;
     background: #3d3d3d;
     border-radius: 8px;
     padding: 10px 12px;
+    flex-wrap: wrap;
+}
+
+.game-main {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
 }
 
 .game-cover {
     width: 60px;
     height: auto;
     border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.game-genres {
+    margin-left: auto;
+    color: #c5f36b;
+    font-size: 0.9em;
+    text-align: right;
+    max-width: 45%;
+    line-height: 1.3;
 }
