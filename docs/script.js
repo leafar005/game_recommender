@@ -1,15 +1,17 @@
+// Referencias a elementos del DOM usados en toda la pagina
 const searchInput = document.getElementById("game-search");
 const addButton = document.getElementById("add-game");
 const favoritesList = document.getElementById("favorites-list");
 const getRecommendations = document.getElementById("get-recommendations");
 const resultsList = document.getElementById("results-list");
 
-// Lista para almacenar los juegos favoritos del usuario
+// Estado en memoria: lista de juegos favoritos seleccionados
 let favorites = [];
 
-
+// Contenedor donde se pintan las sugerencias de autocompletado
 const autocompleteContainer = document.getElementById("autocomplete-results");
 
+// Escucha del input: pide sugerencias al backend cuando hay al menos 3 caracteres
 searchInput.addEventListener("input", async () => {
     const query = searchInput.value.trim();
     
@@ -29,25 +31,45 @@ searchInput.addEventListener("input", async () => {
     }
 });
 
+// Pinta la lista de sugerencias y permite elegir una para rellenar el buscador
+function displaySuggestions(games) {
+    autocompleteContainer.innerHTML = "";
+    if (!games || games.length === 0) return;
 
+    games.slice(0, 10).forEach(game => {
+        const item = document.createElement("div");
+        item.className = "autocomplete-item";
+
+        if (game.cover_url) {
+            const img = document.createElement("img");
+            img.src = game.cover_url;
+            img.alt = `Cover de ${game.name}`;
+            item.appendChild(img);
+        }
+
+        const name = document.createElement("span");
+        name.textContent = game.name;
+        item.appendChild(name);
+
+        item.addEventListener("click", () => {
+            searchInput.value = game.name;
+            autocompleteContainer.innerHTML = "";
+        });
+
+        autocompleteContainer.appendChild(item);
+    });
+}
+
+// Crea un elemento de lista con texto e imagen opcional
 function createGameListItem(game) {
     const li = document.createElement("li");
-    li.style.display = "flex"; // Para alinear el texto y el botón
-    li.style.alignItems = "center";
-    li.style.marginBottom = "10px";
+    li.className = "game-item";
 
     if (game.cover_url) {
-
-        // Crear elemento de imagen para la portada del juego
         const img = document.createElement("img");
         img.src = game.cover_url;
         img.alt = `Cover de ${game.name}`;
-        img.style.width = "60px";
-        img.style.height = "auto";
-        img.style.borderRadius = "5px";
-        img.style.marginRight = "15px";
-
-        // Agregar la imagen al elemento de lista
+        img.className = "game-cover";
         li.appendChild(img);
     }
 
@@ -58,7 +80,7 @@ function createGameListItem(game) {
     return li;
 }
 
-// Agregar juego a favoritos
+// Re-pinta la lista de favoritos con el estado actual
 function updateFavorites() {
     favoritesList.innerHTML = ""; // Limpiamos la lista actual
     favorites.forEach(game => {
@@ -67,7 +89,7 @@ function updateFavorites() {
     });
 }
 
-// Actualizar la lista de recomendaciones
+// Re-pinta la lista de recomendaciones con resultados nuevos
 function updateResults(recommendations) {
     resultsList.innerHTML = ""; 
     recommendations.forEach(game => {
@@ -75,7 +97,7 @@ function updateResults(recommendations) {
     });
 }
 
-// Evento para agregar juego a favoritos
+// Click en "Añadir": busca el mejor resultado y lo agrega a favoritos si no estaba
 addButton.addEventListener("click", async () => {
     const query = searchInput.value.trim();
     if (!query) return;
@@ -99,7 +121,7 @@ addButton.addEventListener("click", async () => {
     searchInput.value = ""; // Vaciamos el buscador
 });
 
-// Evento para obtener recomendaciones
+// Click en "Recomiéndame": envia solo los nombres y pinta las respuestas
 getRecommendations.addEventListener("click", async () => {
     if (favorites.length === 0) return;
 
@@ -123,6 +145,7 @@ getRecommendations.addEventListener("click", async () => {
 });
 
 const clearButton = document.getElementById("clear-list");
+// Limpia favoritos, recomendaciones y el campo de texto
 clearButton.addEventListener("click", () => {
     favorites = [];
     updateFavorites();

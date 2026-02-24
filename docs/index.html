@@ -2,19 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <!-- Titulo y hoja de estilos principal -->
     <title>Game Recommender</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <!-- Cabecera de la pagina -->
         <h1>🎮 Game Recommender</h1>
 
+        <!-- Pasos rapidos para usar la app -->
         <div class="instructions">
         <p>1. Busca tus juegos favoritos y añádelos a la lista.</p>
         <p>2. Cuando tengas al menos uno, pulsa "Recomiéndame".</p>
         <p>3. Descubre nuevos títulos basados en tus gustos</p>
         </div>
 
+        <!-- Buscador con autocompletado y boton para guardar el juego elegido -->
         <div class="search-section">
             <div class="search-wrapper">
     <div style="position: relative;"> <input type="text" id="game-search" placeholder="Busca un juego..." autocomplete="off">
@@ -23,6 +27,7 @@
     <button id="add-game">Añadir a la lista</button>
 </div>
 
+        <!-- Lista de juegos seleccionados y acciones principales -->
         <div class="favorites-section">
             <h3>Tu selección:</h3>
             <ul id="favorites-list"></ul>
@@ -33,12 +38,14 @@
         </div>
 
 
+        <!-- Zona donde se muestran las recomendaciones generadas -->
         <div class="results-section">
             <h3>Recomendaciones:</h3>
             <ul id="results-list"></ul>
         </div>
     </div>
 
+    <!-- Carga de la logica de autocompletado, favoritos y recomendaciones -->
     <script src="script.js"></script>
 </body>
 </html>

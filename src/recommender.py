@@ -101,6 +101,7 @@ class GameRecommender:
             row = self.df.iloc[idx]
             game_name = row["name"]
             cover_url = row.get("cover_url", "")
+            genres = row.get("genres", [])
 
             # Saltar los juegos proporcionados por el usuario
             if game_name in game_names:
@@ -109,7 +110,8 @@ class GameRecommender:
             # Agregar el juego a la lista de recomendaciones
             recommendations.append({
                 "name": game_name,
-                "cover_url": cover_url
+                "cover_url": cover_url,
+                "genres": genres,
             })
 
             if len(recommendations) == top_n:

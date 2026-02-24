@@ -1,3 +1,4 @@
+/* Tema general: tipografia, fondo oscuro y texto centrado */
 body {
     font-family: Arial, sans-serif;
     background-color: #1e1e1e;
@@ -5,6 +6,16 @@ body {
     text-align: center;
 }
 
+/* Contenedor principal que centra la app y le da fondo */
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+}
+
+/* Panel de instrucciones destacado */
 .instructions {
     background-color: #3d3d3d;
     padding: 15px;
@@ -19,21 +30,15 @@ body {
     margin: 5px 0;
 }
 
-.container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #2c2c2c;
-    border-radius: 10px;
-}
-
+/* Caja del buscador con ancho fijo y posicion relativa para el autocompletado */
 .search-wrapper {
     position: relative;
-    display: inline-block; 
-    width: 60%; 
+    display: inline-block;
+    width: 60%;
     text-align: left;
 }
 
+/* Estilo del input de busqueda */
 input[type="text"] {
     padding: 8px;
     width: 100%;
@@ -42,15 +47,16 @@ input[type="text"] {
     border: none;
 }
 
+/* Lista de autocompletado bajo el input */
 .autocomplete-items {
     position: absolute;
     border: 1px solid #444;
-    background-color: #2c2c2c; 
+    background-color: #2c2c2c;
     color: #f0f0f0;
     z-index: 999;
     top: 100%;
     left: 0;
-    width: 60%;
+    width: 100%;
     max-height: 250px;
     overflow-y: auto;
     border-radius: 0 0 5px 5px;
@@ -77,6 +83,7 @@ input[type="text"] {
     border-radius: 3px;
 }
 
+/* Botonera para acciones principales */
 .button-group {
     margin-top: 15px;
     display: flex;
@@ -92,6 +99,7 @@ input[type="text"] {
     background-color: #d32f2f;
 }
 
+/* Botones base */
 button {
     padding: 8px 12px;
     margin-left: 5px;
@@ -100,6 +108,11 @@ button {
     background-color: #4caf50;
     color: white;
     cursor: pointer;
+}
+
+#add-game {
+    display: block;
+    margin: 12px auto 0;
 }
 
 button:hover {
@@ -111,6 +124,19 @@ ul {
     padding-left: 0;
 }
 
-li {
+/* Items de listas (favoritos y resultados) con cover alineada */
+.game-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     margin: 5px 0;
+    background: #3d3d3d;
+    border-radius: 8px;
+    padding: 10px 12px;
+}
+
+.game-cover {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
 }
