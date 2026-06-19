@@ -9,7 +9,8 @@ const aboutPanel = document.getElementById("about-panel");
 const aboutClose = document.getElementById("about-close");
 
 // Estado en memoria: lista de juegos favoritos seleccionados
-let favorites = [];
+// Se intenta recuperar la lista guardada en localStorage del navegador
+let favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
 
 // Contenedor donde se pintan las sugerencias de autocompletado
 const autocompleteContainer = document.getElementById("autocomplete-results");
@@ -96,13 +97,31 @@ function createGameListItem(game, withGenres = true) {
     return li;
 }
 
+// Guarda la lista de favoritos en localStorage para que persista entre sesiones
+function saveFavorites() {
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+}
+
 // Re-pinta la lista de favoritos con el estado actual
 function updateFavorites() {
     favoritesList.innerHTML = ""; // Limpiamos la lista actual
-    favorites.forEach(game => {
-        // Fabricamos el elemento y lo pegamos
-        favoritesList.appendChild(createGameListItem(game, false));
+    favorites.forEach((game, index) => {
+        const li = createGameListItem(game, false);
+
+        // Botón para eliminar este juego de la lista
+        const removeBtn = document.createElement("button");
+        removeBtn.className = "btn-remove";
+        removeBtn.textContent = "✕";
+        removeBtn.title = "Eliminar de la lista";
+        removeBtn.addEventListener("click", () => {
+            favorites.splice(index, 1);
+            updateFavorites();
+        });
+        li.appendChild(removeBtn);
+
+        favoritesList.appendChild(li);
     });
+    saveFavorites(); // Persistimos los cambios en el navegador
 }
 
 // Re-pinta la lista de recomendaciones con resultados nuevos
@@ -181,4 +200,9 @@ if (aboutClose && aboutPanel) {
     aboutClose.addEventListener("click", () => {
         aboutPanel.classList.remove("open");
     });
+}
+
+// Al cargar la página, si había favoritos guardados, los pintamos
+if (favorites.length > 0) {
+    updateFavorites();
 }

@@ -163,6 +163,29 @@ ul {
     max-width: 50%;
 }
 
+/* Botón de eliminar juego en la lista de favoritos */
+.btn-remove {
+    background: transparent;
+    color: #f44336;
+    border: 1px solid #f44336;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 0.85em;
+    cursor: pointer;
+    margin-left: auto;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-remove:hover {
+    background-color: #f44336;
+    color: #fff;
+}
+
 /* Widget flotante About en esquina inferior derecha */
 .about-widget {
     position: fixed;
