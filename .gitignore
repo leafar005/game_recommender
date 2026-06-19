@@ -9,7 +9,6 @@ __pycache__/
 *.pyc
 
 # Datos grandes
-backend/data/games.csv
 
 # Jupyter
 .ipynb_checkpoints/
